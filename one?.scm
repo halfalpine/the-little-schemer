@@ -15,3 +15,7 @@
   (lambda (n)
     (cond
       (else (= n 1)))))
+
+(define one?
+  (lambda (n)
+    (= n 1)))
